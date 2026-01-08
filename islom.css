@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box_1 {
+    width: 100%;
+    background-color: #014E56;
+    padding: 40px 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_2 {
+    height: 40px;
+}
+
+.box_4 {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.box_5,
+.box_6 {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.box_8 {
+    border: 3px solid white;
+    border-radius: 24px;
+    background-color: transparent;
+    color: white;
+    width: 153px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.aziz {
+    display: flex;
+    gap: 150px;
+    color: white;
+    padding: 100px 165px;
+    background-color: #014E56;
+}
+
+.nur {
+    font-size: 64px;
+}
+
+.akbar {
+    max-width: 712px;
+}
+
+.imron {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.kalt {
+    background-color: #004047;
+    padding: 100px 165px;
+}
+
+.spindr {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.mark {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mars {
+    background-color: #012F34;
+    width: 350px;
+    height: 274px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.with {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 2px solid #C4FFFE;
+}
+
+.mishka {
+    color: #79C8C7;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.notebuk {
+    color: white;
+    font-size: 15px;
+}
+
+.yumshoq {
+    margin-top: 20px;
+}
+
+.uyga {
+    background-color: #012F34;
+    padding: 100px 165px;
+    text-align: center;
+}
+
+.kaput {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.OIL {
+    max-width: 100%;
+}
+.hop {
+    background-color: #F67E7E;
+    padding: 70px 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yozuv {
+    color: #012F34;
+    font-size: 48px;
+}
+
+.buton {
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: 3px solid #012F34;
+    background-color: transparent;
+    color: #012F34;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.foter {
+    background-color: #002529;
+    padding: 40px 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myteam {
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    .box_1,
+    .aziz,
+    .kalt,
+    .uyga,
+    .hop,
+    .foter {
+        padding: 60px 30px;
+    }
+
+    .aziz {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .hop {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .mars {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .box_1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mark {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nur,
+    .spindr,
+    .kaput,
+    .yozuv {
+        font-size: 32px;
+    }
+
+    .box_4 li {
+            display: none;
+    }
+}
